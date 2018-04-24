@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [unreleased]
+### Added
+- optional origin-check for price-import (@jppeter)
+- setting for different handling of bundles (@jppeter)
+
 ### Fixed
 - fix salutation in order an customer
 - paypal invoice and paypal installment payment data was discarded, the data is now transfered correctly
@@ -13,7 +17,6 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ## [4.3.0]
 ### Added
 - fallback for the import of the weight (@jppeter)
-- optional origin-check for price-import (@jppeter)
 
 ### Fixed
 - fix tax calculation issue for third country zero tax orders
